@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.roboto-custom {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header {
+  padding: 20px;
+  background-color: #0E2148;
+}
+
+#title_header {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar-left {
+  width: 30%;
+  flex-direction: column;
+  text-align: center;
+  /* căn giữa nội dung ngang */
+  padding-top: 100px;
+  /* đẩy nội dung xuống giữa tương đối */
+  background-color: #dfd9f4;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px 0;
+  background-color: #0E2148;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+ul li a:hover {
+  background-color: #4B5CB0;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.sidebar-right {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* căn giữa ngang */
+  gap: 32px;
+  /* khoảng cách giữa các box */
+}
+
+.box1,
+.box2,
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* căn giữa nội dung trong box */
+}
+
+img {
+  width: 150px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.box2 {
+  padding-bottom: 50px;
+}
+
+.top_phone {
+  width: 250px;
+}
